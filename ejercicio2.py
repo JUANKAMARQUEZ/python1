@@ -3,7 +3,7 @@
 #caracteres que tiene. Después deberá escribir el nombre tantas veces como
 #letras contiene el nombre en líneas distintas.
 
-x=input("¿introduce su nombre?")
+x=input("Introduce su nombre\n")
 print(f"¡Hola, {x.upper()}!"); #con .upper contamos el número de letras que contiene el nombre contando los espacios
 
 print(f"La longuitud del nombre es de {len(x)}")
